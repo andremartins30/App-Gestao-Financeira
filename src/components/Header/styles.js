@@ -10,7 +10,9 @@ export const Container = styled.div`
     background-repeat: no-repeat;
 `;
 
-export const Header = styled.h1``;
+export const Header = styled.h1`
+    Font-size: 45px
+`;
 
 export const Title = styled.div`
     padding-top: 35px;
