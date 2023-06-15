@@ -31,18 +31,18 @@ const App = () => {
 
 
     const handleAdd = (transaction) => {
-        const mewArrayTransactions = [...transactionsList, transaction];
+        const newArrayTransactions = [...transactionsList, transaction];
 
-        setTransactionsList(mewArrayTransactions)
+        setTransactionsList(newArrayTransactions);
 
-        localStorage.setItem("transactions", JSON.stringify(mewArrayTransactions));
-    }
+        localStorage.setItem("transactions", JSON.stringify(newArrayTransactions));
+    };
 
     return (
         <>
         <Header/>
         <Resume income={income} expense={expense} total={total}/>
-        <Form/>
+        <Form handleAdd={handleAdd}/>
         <GlobalStyle />
         </>
     );
