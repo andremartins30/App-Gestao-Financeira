@@ -1,71 +1,42 @@
+# Calculadora de Receita, Despesas e Saldo em React
 
-# Getting Started with   Create React App
+Este é um projeto em React que utiliza o Styled Components e o Create React App para criar uma calculadora de receitas, despesas e saldos. O aplicativo permite que os usuários insiram os valores de suas receitas e despesas, calcula o saldo na conta e exibe uma tabela abaixo com a descrição e o valor das transações inseridas.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Funcionalidades
 
-## Available Scripts
+- **Registro de Transações:** Os usuários podem adicionar suas transações na forma de uma descrição e um valor, especificando se é uma receita ou despesa.
 
-In the project directory, you can run:
+- **Cálculo Automático:** O sistema calcula automaticamente o valor total das receitas, o valor total das despesas e o saldo na conta com base nas transações inseridas.
 
-### `npm start`
+- **Armazenamento Local:** As transações são armazenadas localmente no navegador do usuário para que as informações persistam entre as sessões.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React:** A biblioteca JavaScript para construção da interface do aplicativo.
+- **Styled Components:** Uma biblioteca para estilizar componentes de forma dinâmica.
+- **Create React App:** Uma ferramenta que facilita a criação de aplicativos React com configurações predefinidas.
+- **LocalStorage:** Armazenamento local no navegador para manter o registro das transações.
 
-### `npm test`
+## Como Utilizar
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone o repositório para a sua máquina local.
+2. Instale as dependências com `npm install` ou `yarn install`.
+3. Inicie o aplicativo com `npm start` ou `yarn start`.
 
-### `npm run build`
+## Contribuindo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Este projeto está aberto a contribuições. Se você deseja colaborar, siga os passos abaixo:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Faça um fork do repositório.
+2. Crie uma nova branch com a sua contribuição: `git checkout -b minha-contribuicao`.
+3. Faça suas alterações e commit: `git commit -m 'Minha Contribuição'`.
+4. Envie suas alterações para o seu fork: `git push origin minha-contribuicao`.
+5. Crie um Pull Request para discutir e revisar suas contribuições.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Licença
 
-### `npm run eject`
+Este projeto está licenciado sob a [Licença MIT](LICENSE), o que significa que você pode usá-lo livremente, modificar e distribuir de acordo com os termos da licença.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto foi desenvolvido com ❤️ por André Martins
